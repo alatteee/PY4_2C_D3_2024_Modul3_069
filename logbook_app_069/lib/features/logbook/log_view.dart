@@ -52,9 +52,6 @@ class _CounterViewState extends State<CounterView> {
                 _titleController.text,
                 _contentController.text,
               );
-
-              setState(() {});
-
               _titleController.clear();
               _contentController.clear();
               Navigator.pop(context);
